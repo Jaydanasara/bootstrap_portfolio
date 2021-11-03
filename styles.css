@@ -6,8 +6,40 @@
 .row{
     padding-bottom: 10px;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .description{
     font-size:15px;
+}
+
+.icons{
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.imageContainer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Avengers{
+
+    max-height: 150px;
+    max-width: 150px;
+
+}
+
+.img-fluid{
+    margin-bottom: 10px;
+}
+
+.titleContain{
+    text-align: center;
+}
+
+img{
+    margin: 5px;
 }
